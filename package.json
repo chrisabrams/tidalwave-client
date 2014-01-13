@@ -1,0 +1,35 @@
+{
+  "name": "tidalwave-client",
+  "version": "0.0.1",
+  "description": "Tidalwave Client",
+  "author": {
+    "name": "Chris Abrams",
+    "email": "mail@chrisabrams.com",
+    "url": "https://github.com/chrisabrams/tidalwave-client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisabrams/tidalwave-client.git"
+  },
+  "scripts": {
+    "test": "cake test"
+  },
+  "main": "./main.js",
+  "dependencies": {
+    "underscore": "1.5.2",
+    "websocket": "1.0.8"
+  },
+  "devDependencies": {
+    "chai": "1.8.1",
+    "coffee-script": "1.6.3",
+    "mocha": "1.16.1",
+    "sinon-chai": "2.4.0",
+    "tidalwave": "*",
+    "tidalwave-router": "*"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
